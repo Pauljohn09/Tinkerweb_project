@@ -1,0 +1,208 @@
+    body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+
+    }
+  
+    .top{
+        /* position: relative;   */
+    background-color:thistle;
+    /* height:170px; */
+    display: flex;
+    justify-content: center;
+    }
+    #logo{
+        /* float: left; */
+        margin-top:10px;
+        /* padding-left: 20%; */
+        height: 150px;
+    }
+    .heading{
+         padding-top:25px ;
+    }
+    .title-1{
+        padding-left: 20px;
+        font-family: 'Goblin One', cursive;
+        text-shadow: 2px 2px  #971616;
+        color: rgb(255, 0, 0);
+        font-size: 35px;
+    }
+    .subtitle
+    {
+        padding-left: 20px;
+        color: white;
+    }
+    .hen{
+        color: black;
+        font-size: 25px;
+    }
+    .icon{
+        
+        /* position: absolute; */
+        /* top: 15%; */
+        /* left: 60%; */
+        text-align: center;
+        display: flex;
+        /* margin-top: 30px; */
+        margin: 30px 30px 30px 20%;
+        /* margin-right: 20px; */
+        /* height: 120px; */
+        /* margin-bottom: 50px; */
+    }
+    .icon-1{
+        width: 70px;
+        font-size: 35px;
+        color: teal;
+        margin-left: 10px;
+    }
+    .icon span{
+        font-size: 20px;
+    }
+
+    .icon-1:hover{
+        color: rgb(216,191,216);;
+        background-color: teal;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: rgb(4, 158, 158);
+        /* min-width: 160px; */
+        box-shadow: 0px 8px 16px 5px rgba(10, 10, 10, 0.2);
+        }
+    .icon-1:hover .dropdown-content {display: block;}
+
+    .dropdown-content span:hover {
+        background-color: #ddd;
+        color: black;
+        border-left-style: solid;
+        border-bottom-style: solid;
+    }
+
+    .dropdown-content span{
+        text-align: left;
+        padding: 10px 10px 7px;
+        display: block;
+        font-size: 15px;
+        color: white;
+        
+    }
+  
+    .middle{
+        background-color:#067a8a;
+    }
+
+    .div-image-1{
+           display: flex;
+           justify-content: center;
+           padding-top: 20px;
+           /* margin-left: 33% ; */
+           padding-bottom: 20px;
+           /* height: 436px; */
+           /* width: 650px; */
+    }
+  
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+           padding-top: 20px;
+           padding-bottom: 20px; */
+           /* padding-left: 27% ; */
+    
+        /* .image-1{ */
+            /* display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+             */
+            /* margin-bottom: 25px; */
+            /* padding-top: 20px; */
+            /* margin-top: 20px; */
+            /* } */
+
+
+    
+    .middle-1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+     .parent-box{
+        position: relative;
+        margin-left:45px;
+        
+        /* width: 325px; */
+        /* height: 300px; */
+    } 
+
+    .box-text{ 
+        background-color: #067b8a7a ;
+        font-weight: 500;
+        color: white;
+        font-size: 22px;
+        width: 100%;
+        position: absolute; 
+        bottom: 0px;
+        padding-bottom:10px; 
+        text-align:center ;
+    }
+
+    .box{
+        /* width: auto; */
+        /* height: auto; */
+        width: 325px;
+        height: 300px;
+    
+     }
+    
+    .image-1:hover, .box:hover{
+        box-shadow:0px 5px 8px 10px #045457;
+    }
+
+    .bottom{
+    background-color:#024642;
+    height:190px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    }     
+
+    .title{
+        font-size:25px;
+    }
+    
+    .block{
+        width:325px;
+        margin-left:45px;
+        margin-top: 30px;
+    }
+
+    .end{
+        text-align: center;
+        padding-bottom: 10px;
+        background-color:#024642;
+        color: white;
+        font-size: 13px;
+    }
+    
+@media (max-width:1150px)
+{
+  
+    .parent-box{
+        margin-left: 20px ;
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+    }
+    .block{
+        height: 200px;
+        width: 200px;
+        margin-left: 20px;
+    }
+    
+}
